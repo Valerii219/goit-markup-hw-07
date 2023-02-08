@@ -24,7 +24,6 @@ body {
 }
 
 .container {
-  
   padding: 0 15px;
   margin-left: auto;
   margin-right: auto;
@@ -217,6 +216,7 @@ input {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--title-text-color);
+  margin-bottom: 8px;
 }
 .suptitle-footer {
   color: var(--additional-color);
@@ -341,11 +341,12 @@ input {
 
 .features-list {
   display: flex;
-  gap: 24px;
+  gap: 72px;
   flex-wrap: wrap;
 }
 .features-list-title {
-  flex-basis: calc((100% - 72px) / 4);
+  width: 100%;
+  /* flex-basis: calc((100% - 72px) / 4); */
 }
 
 .work-list {
@@ -369,12 +370,10 @@ input {
 .feature-list .title {
   color: var(--title-text-color);
 }
-.caption {
-  margin-bottom: 8px;
-}
+
 .section {
-  padding-top: 120px;
-  padding-bottom: 120px;
+  padding-top: 96px;
+  padding-bottom: 96px;
 }
 .section-work {
   padding-top: 0;
