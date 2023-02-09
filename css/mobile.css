@@ -2,16 +2,15 @@
   .container {
     max-width: 428px;
   }
-}
-
-@media screen and (min-width: 320px) and (max-width: 1200px) {
-  .icon-item-features {
-    display: none;
+  @media screen and (min-width: 320px) and (max-width: 767px) {
+    .caption {
+      text-align: center;
+    }
+    
   }
 }
 
-@media screen and (min-width: 320px) and (max-width: 767px) {
-  .caption {
-    text-align: center;
-  }
-}
+
+
+
+
