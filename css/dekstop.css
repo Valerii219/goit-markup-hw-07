@@ -2,9 +2,11 @@
   .container {
     max-width: 1128px;
   }
+  
   .hero
   {padding-top: 188px;
     padding-bottom: 188px;}
+
   .section-features{
     padding-top: 96px;
     padding-bottom: 96px;

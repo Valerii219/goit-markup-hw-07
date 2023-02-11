@@ -69,9 +69,8 @@ input {
 }
 .top-header-container {
   display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
+  align-items: center;}
+  
 .nav {
   display: flex;
   align-items: center;
@@ -180,13 +179,13 @@ input {
   background-repeat: no-repeat;
   background-size: cover;
 }
-@media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+/* @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
   .hero {
-    background-image: var(--linear-gradient-bg), url(../images/mob-bg-2x.jpg);
+    background-image:  url(../images/mob-bg-2x.jpg);
   }
-}
+} */
 .hero-container {
-  min-width: 318px;
+  max-width: 1440px;
 }
 .hero-title {
   font-size: 36px;

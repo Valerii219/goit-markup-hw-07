@@ -70,13 +70,13 @@ margin-right:30px ;
     padding-bottom: 108px;
     background-image: var(--linear-gradient-bg), url(../images/dekstop-bg.jpg);
 }
-@media (min-device-pixel-ratio: 2),
+/* @media (min-device-pixel-ratio: 2),
 (min-resolution: 192dpi),
 (min-resolution: 2dppx) {
 .hero {
     background-image:var(--linear-gradient-bg), url(../images/dekstop-bg-2x.jpg);
 }
-}
+} */
     .hero-title {
         font-size: 56px;
         line-height: 1.07;
