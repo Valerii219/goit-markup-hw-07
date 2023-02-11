@@ -325,7 +325,10 @@ input {
   opacity: 0;
   display: none;
 }
-
+.section-features {
+  padding-top: 96px;
+  padding-bottom: 96px;
+}
 .features-list {
   display: flex;
   gap: 72px;
@@ -334,29 +337,28 @@ input {
 .features-list-title {
   width: 100%;
 }
+.feature-list .title {
+  color: var(--title-text-color);
+}
 .section-work {
   display: none;
 }
 
 .team-list {
   display: flex;
-  column-gap: 24px;
-  order: 0;
+  flex-wrap: wrap;
+  gap: 72px;
 }
 
 .team-list-title {
-  flex-basis: calc((100% - 72px) / 4);
-}
-.feature-list .title {
-  color: var(--title-text-color);
+  width: 100%;
+  /* flex-basis: calc((100% - 72px) / 4); */
 }
 
 .section-team {
+  padding-top: 96px;
+  padding-bottom: 128px;
   background-color: var(--team-section-color);
-}
-.section-team {
-  padding-top: 120px;
-  padding-bottom: 120px;
 }
 .team-card {
   padding-top: 32px;
@@ -437,27 +439,42 @@ input {
 /* ===================FOOTER============= */
 .footer {
   background-color: var(--title-text-color);
-  padding-top: 100px;
-  padding-bottom: 100px;
+  padding-top: 96px;
+  padding-bottom: 96px;
+  margin: 0 auto;
 }
 .container-footer {
-  margin: 0 auto;
-  width: 1158px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  gap: 72px;
   padding-right: 15px;
   padding-left: 15px;
+}
+.flex-table{
   display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  
+}
+.footer-text {
+  width: 268px;
+  margin-bottom: 72px;
 }
 
-.footer-text {
-  min-width: 264px;
-  margin-right: 120px;
-}
 .suptitle-footer {
   max-width: 264px;
   margin-top: 16px;
+  margin: 0 auto;
+  margin-bottom: ;
 }
 .social-media {
-  min-width: 208px;
+  margin: 0 auto;
+  width: 208px;
 }
 .social {
   font-family: 'Roboto';
@@ -467,7 +484,8 @@ input {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--third-text-color);
-}
+  text-align: center;}
+  
 .social-icons {
   display: flex;
   justify-content: center;
@@ -499,24 +517,25 @@ input {
 /* ===================/FOOTER============= */
 /* ===================FOOTER-FORM============= */
 .footer-form {
-  margin-left: auto;
+  margin: 0 auto;
 }
 .form {
-  width: 453px;
-  height: 80px;
+  width: 100%;
 }
 
 .form-field {
-  position: relative;
+  
   width: 100%;
   display: flex;
-  flex-direction: row;
-  gap: 24px;
+  flex-direction: column;
+  align-items: center;
+  /* flex-direction: row; */
+  gap: 16px;
   margin-top: 16px;
 }
 
 .form-input {
-  min-width: 264px;
+  width: 315px;
   border: 1px solid rgba(255, 255, 255, 0.3);
   border-radius: 4px;
   background-color: transparent;
@@ -533,7 +552,9 @@ input {
 }
 
 .btn-form {
-  min-width: 165px;
+  position: relative;
+  display: block;
+  width: 165px;
   letter-spacing: 0.04em;
   font-size: 16px;
   line-height: 1.5;
@@ -547,9 +568,9 @@ input {
 .icon {
   position: absolute;
   fill: var(--primery-background-color);
-  top: 50%;
+  top: 8px;
   right: 24px;
-  transform: translateY(-50%);
+  transform: translateY(-50%, 0);
 }
 
 /* ===================/FOOTER_FORM============= */
