@@ -2,11 +2,9 @@
   .container {
     max-width: 1128px;
   }
-  
-  .hero
-  {padding-top: 188px;
-    padding-bottom: 188px;}
-
+  .section {
+    padding-top: 120px;
+    padding-bottom: 120px;}
   .section-features{
     padding-top: 96px;
     padding-bottom: 96px;
@@ -17,7 +15,6 @@
     gap: 24px;
     margin-bottom: 8px;
   }
-
   .icon-item-features {
     width: calc((100% - 72px) / 4);
     height: 112px;
@@ -39,11 +36,14 @@
   .features-list-title {
     flex-basis: calc((100% - 72px) / 4);
   }
+  .section {
+    padding-top: 96px;
+    padding-bottom: 96px;
+  }
   .section-work {
     display: block;
     padding-top: 0;
   }
-
   .work-list {
     display: flex;
     gap: 24px;
@@ -60,7 +60,7 @@
     flex-wrap: nowrap;
     gap: 24px;
   }
-  
+
   .team-list-title{
     flex-basis: calc((100% - 72px) / 4);
   }
@@ -73,17 +73,16 @@
     gap: 24px;
     flex-wrap: nowrap;
   }
-
   .item-customers {
     width: calc((100% - 120px) / 6);
     height: 88px;
   }
-  
+
   .container-footer {
   flex-direction: unset;
   justify-content: flex-start;
   gap:0;
-   
+
 }
 .footer-text {
   min-width: 264px;
@@ -106,14 +105,12 @@
 .form-field {
   flex-direction: unset;
   gap: 24px;
-  
+
 }
 .form-input {
   min-width: 264px;
 
-  
+
 }
-
-
 
 }
