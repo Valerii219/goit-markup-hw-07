@@ -8,6 +8,11 @@
     }
     .hero-title {
     margin-bottom: 48px;}
+    .contact {
+      display: flex;
+      align-items: center;
+      margin-left: auto;
+    }
   .section-features{
     padding-top: 96px;
     padding-bottom: 96px;

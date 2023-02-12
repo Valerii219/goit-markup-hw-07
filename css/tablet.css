@@ -5,10 +5,12 @@
   /*- ---------heADER--------------- */
   .top-header-container {
     align-items: center;
+    
   }
   .nav {
     display: flex;
     align-items: center;
+    
   }
   .container-logo {
     margin-right: 76px;
@@ -24,7 +26,6 @@
   
   .menu-link {
     position: relative;
-  
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -56,6 +57,7 @@
   }
   .contact-mail {
     margin-right: 30px;
+    
   }
   
   .menu-link:hover,
@@ -68,6 +70,7 @@
     line-height: 1.5;
     color: var(--primery-text-color);
     transition: color var(--time-cubic);
+    
   }
   .mail:hover,
   .number:hover,

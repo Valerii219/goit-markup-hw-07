@@ -59,6 +59,9 @@ img {
 input {
   padding: 0;
 }
+.no-scroll{
+  overflow: hidden;
+}
 /* ===================HEADER================================ */
 
 /* menu */
@@ -68,8 +71,9 @@ input {
   border-bottom: 2px solid var(--based-background-color);
 }
 .top-header-container {
-  max-width: 480px;
+  max-width: 100%;
   display: flex;
+  
 }
   .menu, .contact{
     display: none;
@@ -101,7 +105,8 @@ input {
     width: 100%;
     height: 100vh;
     background-color: var(--primery-background-color);
-    padding: 40px;
+    padding-top: 40px;
+    padding-bottom: 40px;
   }
   .mob-menu > .container{
     height: 100%;
@@ -115,18 +120,13 @@ input {
     width: 24px;
     height: 24px;
     margin-left: auto;
-   border-radius: 50%;
-   border: 1px solid rgba(0, 0, 0, 0.1);
-   background-color: var(--additional-color);
-   margin-bottom: 16px;
-   padding: 0;
+    border-radius: 50%;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    background-color: var(--additional-color);
+    margin-bottom: 16px;
+    padding: 0;
   }
-  .menu-icon-close {
-  }
-  .menu-mob-list {
-  }
-   .menu-mob-item {
-  }
+  
   .menu-mob-item:not(:last-child){
     margin-bottom: 40px;
   }
@@ -139,17 +139,26 @@ input {
     color: var(--title-text-color);
     text-transform: capitalize;
   }
-  
+  .menu-mob-link:is(:hover, :focus){
+    color: var(--accent-color);
+  }
   .contact-mob{
     margin-top: 40px;
   }
-  .mail-mob, .contact-mob {
+  .mail-mob, .number-mob {
     font-size: 20px;
     line-height: calc(24 / 20);
     letter-spacing: 0.02em;
     color: var(--primery-text-color);
   }
-  
+  .mail-mob:is(:hover, :focus), 
+  .number-mob:is(:hover, :focus){
+    font-weight: 600;
+    font-size: 36px;
+    line-height: calc(40 / 36);
+    text-transform: capitalize;
+    color: var(--secondary-background-color)
+  }
   .contact-mob-number {
     margin-bottom: 40px;
   }
@@ -166,8 +175,7 @@ input {
     background-color: var(--secondary-background-color);
     border-radius: 50%;
     transition: background-color var(--time-cubic);
-   
- 
+
   }
   .soc-link-mob {
     position: absolute;
