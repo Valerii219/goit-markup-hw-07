@@ -2,6 +2,7 @@
   .container {
     max-width: 428px;
   }
+  
   .hero {
     background-image:var(--linear-gradient-bg), url(../images/tablet-bg.jpg);
     }
