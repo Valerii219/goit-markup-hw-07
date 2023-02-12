@@ -2,17 +2,24 @@
   .container {
     max-width: 1128px;
   }
+  /*- ------===========================---HEDER-------------- */
+  .contact {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+  }
+  /*- ------===========================---//HEDER-------------- */
+
+  /*- ------===========================---HERO-------------- */
   .hero{
     padding-top: 188px;
     padding-bottom: 188px;
     }
     .hero-title {
     margin-bottom: 48px;}
-    .contact {
-      display: flex;
-      align-items: center;
-      margin-left: auto;
-    }
+    /*- ------===========================---//HERO-------------- */
+    
+    /*- ------===========================---MAIN-------------- */
   .section-features{
     padding-top: 96px;
     padding-bottom: 96px;
@@ -84,12 +91,13 @@
     width: calc((100% - 120px) / 6);
     height: 88px;
   }
-  
+  /*- ------===========================---//MAIN-------------- */
+
+  /*- ------===========================---FOOTER-------------- */
   .container-footer {
   flex-direction: unset;
   justify-content: flex-start;
   gap:0;
-   
 }
 .footer-text {
   min-width: 264px;
@@ -116,10 +124,16 @@
 }
 .form-input {
   min-width: 264px;
+}
 
-  
+/*- ------===========================---/FOOTER-------------- */
+
+/* ========================PORTFOLIO =============*/
+.section-buttton {
+  padding-top: 96px;
+  padding-bottom: 120px;
 }
 
 
-
+/* ========================////PORTFOLIO =============*/
 }
