@@ -74,6 +74,24 @@ input {
   display: flex;
   max-width: 100%;
 }
+.menu-link:hover,
+.menu-link:focus {
+  color: var(--accent-color);
+}
+.mail,
+.number {
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--primery-text-color);
+  transition: color var(--time-cubic);
+  
+}
+.mail:hover,
+.number:hover,
+.mail:focus,
+.number:focus {
+  color: var(--accent-color);
+}
 
 .menu, .contact {
   display: none;
@@ -285,6 +303,14 @@ input {
   color: var(--title-text-color);
   margin-bottom: 8px;
 }
+.caption-port {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--title-text-color);
+  margin-bottom: 8px;
+}
 .suptitle-footer {
   color: var(--additional-color);
 }
@@ -346,15 +372,14 @@ input {
 .filters-button-project:not(:last-child) {
   margin-right: 24px;
 }
-.content {
+.content { 
   display: flex;
   flex-wrap: wrap;
-  column-gap: 24px;
-  row-gap: 48px;
-  margin-top: 72px;
+  gap: 48px;
+  margin-top: 48px;
 }
 .content-title {
-  flex-basis: calc((100% - 72px) / 3);
+  width: 100%;
   transition: box-shadow var(--time-cubic);
 }
 .content-title:is(:hover, :focus) .overlay {
