@@ -2,7 +2,16 @@
   .container {
     max-width: 428px;
   }
-  
+  .hero {
+    background-image:var(--linear-gradient-bg), url(../images/tablet-bg.jpg);
+    }
+    @media (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .hero {
+    background-image:var(--linear-gradient-bg), url(../images/table-bg-2x.jpg);
+  }
+}
   @media screen and (min-width: 320px) and (max-width: 767px) {
     .caption, .social {
       text-align: center;

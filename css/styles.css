@@ -227,24 +227,34 @@ input {
 /* ==================HERO========== */
 .hero {
   background-color: var(--title-text-color);
-  background-image: var(--linear-gradient-bg), url(../images/people-office.jpg);
+  background-image: var(--linear-gradient-bg), url(../images/mob-bg.jpg);
   text-align: center;
-  padding-top: 188px;
-  padding-bottom: 188px;
+  padding-top: 112px;
+  padding-bottom: 112px;
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
+}
+@media (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .hero {
+    background-image:var(--linear-gradient-bg), url(../images/mob-bg-2x.jpg);
+  }
 }
 .hero-container {
-  max-width: 1440px;
+  padding: 0;
+  max-width: 100%;
 }
 .hero-title {
-  font-size: 56px;
-  line-height: 1.07;
+  width: 318px;
+  font-size: 36px;
+  line-height: 1.11;
   color: var(--third-text-color);
   max-width: 494px;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 48px;
+  margin-bottom: 72px;
 }
 
 /* ===================/HERO================================ */
