@@ -1,13 +1,12 @@
 @media screen and (min-width: 480px) {
   .container {
     max-width: 428px;
-  }}
-
+  }
+  
   @media screen and (min-width: 320px) and (max-width: 767px) {
-        .caption, .social {
+    .caption, .social {
       text-align: center;
     }
-
     .footer-logo{
       display: block;
       text-align: center;
@@ -16,6 +15,7 @@
       width: 396px;
   }
   }
+}
 
 
 
