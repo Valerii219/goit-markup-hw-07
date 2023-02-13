@@ -84,7 +84,6 @@ input {
   line-height: 1.5;
   color: var(--primery-text-color);
   transition: color var(--time-cubic);
-  
 }
 .mail:hover,
 .number:hover,
@@ -93,7 +92,8 @@ input {
   color: var(--accent-color);
 }
 
-.menu, .contact {
+.menu,
+.contact {
   display: none;
 }
 .open-menu-btn {
@@ -124,11 +124,7 @@ input {
   background-color: var(--primery-background-color);
   padding-top: 40px;
   padding-bottom: 50px;
-  transform: translateX(100%);
 }
-  .mob-menu.js-is-open {
-    transform: translateX(0);
-  }
 .mob-menu > .container {
   height: 100%;
   display: flex;
@@ -305,13 +301,7 @@ input {
   color: var(--title-text-color);
   margin-bottom: 8px;
 }
-@media screen and (min-width: 320px) and (max-width: 767px) {
-  .caption,
-  .social {
-    text-align: center;
-  }
-  
-}
+
 .caption-port {
   font-weight: 500;
   font-size: 20px;
@@ -370,18 +360,19 @@ input {
   margin-left: auto;
   margin-right: auto;
 }
-.filters-button, .filters-button-second{
+.filters-button,
+.filters-button-second {
   display: flex;
   flex-direction: row;
 }
-.filters-button{
+.filters-button {
   margin-bottom: 16px;
 }
 
 .filters-button-project:not(:last-child) {
   margin-right: 24px;
 }
-.content { 
+.content {
   display: flex;
   flex-wrap: wrap;
   gap: 48px;
@@ -619,10 +610,6 @@ input {
 .social-link:is(:hover, :focus) {
   background-color: var(--hover-footer-color);
 }
-.footer-logo {
-  display: block;
-  text-align: center;
-}
 
 /* ===================/FOOTER============= */
 /* ===================FOOTER-FORM============= */
@@ -630,16 +617,18 @@ input {
   margin-left: auto;
   margin-right: auto;
 }
-
+.form .social {
+  margin-bottom: 16px;
+}
 .form-input {
   min-width: 319px;
+  height: 40px;
   border: 1px solid rgba(255, 255, 255, 0.3);
   border-radius: 4px;
   background-color: transparent;
   outline: transparent;
   padding: 8px 16px;
   color: var(--third-text-color);
-  margin-top: 16px;
 }
 
 .form-field input::placeholder {
@@ -868,3 +857,13 @@ input {
   background-color: red;
 } */
 /* ===================/MODAL WINDOW============= */
+@media screen and (max-width: 767px) {
+  .caption,
+  .social {
+    text-align: center;
+  }
+  .footer-logo {
+    display: block;
+    text-align: center;
+  }
+}

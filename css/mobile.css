@@ -21,13 +21,13 @@
     .hero {
       background-image: var(--linear-gradient-bg), url(../images/table-bg-2x.jpg);
     }
-    .form-input {
-      min-width: 396px;
-    }
+    
   }
   /*- ---========================================------//HERO-------------- */
 
-  
+  .form-input {
+    min-width: 396px;
+  }
   /* ========================PORTFOLIO =============*/
 
   /* ========================////PORTFOLIO =============*/
