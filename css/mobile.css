@@ -21,22 +21,13 @@
     .hero {
       background-image: var(--linear-gradient-bg), url(../images/table-bg-2x.jpg);
     }
+    .form-input {
+      min-width: 396px;
+    }
   }
   /*- ---========================================------//HERO-------------- */
 
-  @media screen and (min-width: 320px) and (max-width: 767px) {
-    .caption,
-    .social {
-      text-align: center;
-    }
-    .footer-logo {
-      display: block;
-      text-align: center;
-    }
-    .form-input {
-      width: 396px;
-    }
-  }
+  
   /* ========================PORTFOLIO =============*/
 
   /* ========================////PORTFOLIO =============*/
