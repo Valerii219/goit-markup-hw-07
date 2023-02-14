@@ -1,6 +1,6 @@
 @media screen and (min-width: 1200px) {
   .container {
-    max-width: 1128px;
+    width: 1128px;
   }
   /*- ------===========================---HEDER-------------- */
   .contact {
@@ -94,6 +94,9 @@
   /*- ------===========================---//MAIN-------------- */
 
   /*- ------===========================---FOOTER-------------- */
+  .footer{
+    width: 100%;
+  }
   .container-footer {
   flex-direction: unset;
   justify-content: flex-start;

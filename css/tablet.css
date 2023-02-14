@@ -1,6 +1,6 @@
 @media screen and (min-width: 768px) {
   .container {
-    max-width: 768px;
+    width: 768px;
   }
 
   /*- ------===============---HEADER--------------- */
@@ -72,7 +72,10 @@
 
     background-image: var(--linear-gradient-bg), url(../images/dekstop-bg.jpg);
   }
-  @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+  @media (min-device-pixel-ratio: 2),
+    (-webkit-min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
     .hero {
       background-image: var(--linear-gradient-bg), url(../images/dekstop-bg-2x.jpg);
     }
@@ -178,4 +181,8 @@
     flex-basis: calc((100% - 24px) / 2);
   }
   /* ========================////PORTFOLIO =============*/
+
+  .footer {
+    width: 768px;
+  }
 }
