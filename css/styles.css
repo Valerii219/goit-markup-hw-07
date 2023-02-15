@@ -24,6 +24,7 @@ body {
 }
 
 .container {
+  width: 100%;
   padding: 0 15px;
   margin: 0 auto;
 }
@@ -300,6 +301,14 @@ input {
   color: var(--title-text-color);
   margin-bottom: 8px;
 }
+.cap{
+  font-weight: 700;
+font-size: 36px;
+line-height: calc(40 / 36);
+letter-spacing: 0.02em;
+text-transform: capitalize;
+color: #2E2F42;
+}
 
 .caption-port {
   font-weight: 500;
@@ -322,6 +331,7 @@ input {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  margin: 0 auto;
 }
 @media (min-device-pixel-ratio: 2),
   (-webkit-min-device-pixel-ratio: 2),
@@ -333,7 +343,7 @@ input {
 }
 .hero-container {
   padding: 0;
-  max-width: 100%;
+  
 }
 .hero-title {
   width: 318px;
@@ -428,6 +438,8 @@ input {
 .section-features {
   padding-top: 96px;
   padding-bottom: 96px;
+  margin: 0 auto;
+
 }
 .features-list {
   display: flex;
@@ -447,17 +459,20 @@ input {
 .team-list {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
   gap: 72px;
 }
 
 .team-list-title {
-  width: 100%;
+  width: 264px;
   /* flex-basis: calc((100% - 72px) / 4); */
 }
 
 .section-team {
+  max-width: 428px;
   padding-top: 96px;
   padding-bottom: 128px;
+  margin: 0 auto;
   background-color: var(--team-section-color);
 }
 .team-card {
@@ -500,6 +515,8 @@ input {
 .section-customers {
   padding-top: 96px;
   padding-bottom: 96px;
+  max-width: 428px;
+  margin: 0 auto;
 }
 
 .list-customers {
@@ -507,6 +524,7 @@ input {
   flex-wrap: wrap;
   row-gap: 72px;
   column-gap: 16px;
+  justify-content: center;
 }
 
 .item-customers {
@@ -542,14 +560,9 @@ input {
   padding-top: 96px;
   padding-bottom: 96px;
   margin: 0 auto;
+  max-width: 428px;
 }
 .container-footer {
-  width: 100%;
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
-  justify-content: center;
-  gap: 72px;
   padding-right: 15px;
   padding-left: 15px;
 }
@@ -558,7 +571,7 @@ input {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  flex-direction: column;
+ 
 }
 .footer-text {
   width: 268px;
@@ -571,7 +584,6 @@ input {
   margin: 0 auto;
 }
 .social-media {
-  margin: 0 auto;
   width: 208px;
 }
 .social {
@@ -616,12 +628,13 @@ input {
 /* ===================/FOOTER============= */
 /* ===================FOOTER-FORM============= */
 .footer-form {
-  margin-left: auto;
-  margin-right: auto;
+  width: 100%;
+  margin-top: 72px;
 }
 .form .social {
   margin-bottom: 16px;
 }
+
 .form-input {
   min-width: 319px;
   height: 40px;
@@ -631,6 +644,7 @@ input {
   outline: transparent;
   padding: 8px 16px;
   color: var(--third-text-color);
+  
 }
 
 .form-field input::placeholder {

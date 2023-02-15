@@ -69,6 +69,7 @@
   .hero {
     padding-top: 108px;
     padding-bottom: 112px;
+    max-width: 768px;
 
     background-image: var(--linear-gradient-bg), url(../images/dekstop-bg.jpg);
   }
@@ -77,6 +78,7 @@
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
     .hero {
+      
       background-image: var(--linear-gradient-bg), url(../images/dekstop-bg-2x.jpg);
     }
   }
@@ -89,7 +91,9 @@
   /*- ------==============================---/HERO-------------- */
 
   /*- ----================================-----MAIN-------------- */
-
+  .section-features{
+    max-width: 768px;
+  }
   .features-list {
     display: flex;
     flex-wrap: wrap;
@@ -102,15 +106,17 @@
   .section-team {
     padding-top: 96px;
     padding-bottom: 104px;
+    max-width: 768px;
   }
   .team-list {
     display: flex;
     flex-wrap: wrap;
     row-gap: 64px;
     column-gap: 24px;
+
   }
   .team-list-title {
-    flex-basis: calc((100% - 24px) / 2);
+    /* flex-basis: calc((100% - 24px) / 2); */
   }
   .list-customers {
     display: flex;
@@ -118,10 +124,21 @@
     row-gap: 72px;
     column-gap: 24px;
   }
-  .item-customers {
-    flex-basis: calc((100% - 48px) / 3);
-    height: 88px;
+  .section-customers{
+    max-width: 768px;
+    margin: 0 auto;
+   
   }
+  
+  .item-customers {
+    flex-basis: 168px;
+    height: 88px;
+    
+  }
+/* ==============================FOOTER================ */
+.container-footer{
+  width: 768px;
+}
 
   .flex-table {
     flex-direction: row;
@@ -143,7 +160,13 @@
   }
   .footer-form {
     width: 453px;
-    margin-left: 108px;
+  
+  }
+  .form-input{
+    min-width: 264px;
+  }
+  .btn-form{
+    margin: 0;
   }
   .form-field {
     width: 453px;
@@ -183,6 +206,6 @@
   /* ========================////PORTFOLIO =============*/
 
   .footer {
-    width: 768px;
+    max-width: 768px;
   }
 }

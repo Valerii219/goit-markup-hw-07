@@ -15,32 +15,33 @@
   /*- -----=========================----//HEADER--------------- */
 
   /*- -----====================================----HERO-------------- */
-  .hero{
-    width: 428px;
-    margin: 0 auto;
-}
+  
   .hero {
     background-image: var(--linear-gradient-bg), url(../images/tablet-bg.jpg);
+    max-width: 428px;
+    margin: 0 auto;
   }
   @media (min-device-pixel-ratio: 2),
   (-webkit-min-device-pixel-ratio: 2),
   (min-resolution: 192dpi),
   (min-resolution: 2dppx){
   .hero {
-    max-width: 428px;
       background-image: var(--linear-gradient-bg), url(../images/table-bg-2x.jpg);
     }
   }
   
   /*- ---========================================------//HERO-------------- */
-
-  .form-input {
-    min-width: 396px;
+  .section-features{
+    max-width: 428px;
   }
+ 
   /* ========================PORTFOLIO =============*/
 
   /* ========================////PORTFOLIO =============*/
   .footer{
-    width: 428px;
+    max-width: 428px;
+  }
+  .form-input {
+    min-width: 396px;
   }
 }
