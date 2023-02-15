@@ -102,13 +102,14 @@
 
   /*- ------===========================---FOOTER-------------- */
   .footer{
-    max-width: 1128px;
+    max-width: 1440px;
   }
   .container-footer {
   flex-direction: unset;
   justify-content: flex-start;
   gap:0;
   width: 1128px;
+  margin: 0 auto;
   
 }
 .flex-table{
@@ -150,6 +151,7 @@
 .section-buttton {
   padding-top: 96px;
   padding-bottom: 120px;
+  max-width: 1440px;
 }
 .content {
   display: flex;

@@ -183,6 +183,7 @@
   .section-buttton {
     padding-top: 64px;
     padding-bottom: 96px;
+    max-width: 768px;
   }
   .btn-portf {
     display: flex;

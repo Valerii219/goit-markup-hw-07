@@ -366,6 +366,7 @@ color: #2E2F42;
 .section-buttton {
   padding-top: 48px;
   padding-bottom: 48px;
+  margin: 0 auto;
 }
 .portfolio {
   padding: 0 15px;
@@ -565,6 +566,7 @@ color: #2E2F42;
 .container-footer {
   padding-right: 15px;
   padding-left: 15px;
+  
 }
 .flex-table {
   display: flex;
