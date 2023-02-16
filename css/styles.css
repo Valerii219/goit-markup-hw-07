@@ -615,13 +615,12 @@ input {
 .social-link:is(:hover, :focus) {
   background-color: var(--hover-footer-color);
 }
-.input{
+.input {
   width: 100%;
 }
 /* ===================/FOOTER============= */
 /* ===================FOOTER-FORM============= */
 .footer-form {
-  
   margin-top: 72px;
 }
 .form .social {
@@ -638,7 +637,7 @@ input {
   padding: 8px 16px;
   color: var(--third-text-color);
 }
-.form-field{
+.form-field {
   width: 100%;
 }
 .form-field input::placeholder {
