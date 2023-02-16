@@ -78,13 +78,7 @@ input {
 .menu-link:focus {
   color: var(--accent-color);
 }
-.mail,
-.number {
-  font-size: 16px;
-  line-height: 1.5;
-  color: var(--primery-text-color);
-  transition: color var(--time-cubic);
-}
+
 .mail:hover,
 .number:hover,
 .mail:focus,
@@ -468,7 +462,6 @@ input {
 }
 
 .section-team {
-  max-width: 428px;
   padding-top: 96px;
   padding-bottom: 128px;
   margin: 0 auto;
@@ -514,7 +507,6 @@ input {
 .section-customers {
   padding-top: 96px;
   padding-bottom: 96px;
-  max-width: 428px;
   margin: 0 auto;
 }
 
@@ -559,11 +551,12 @@ input {
   padding-top: 96px;
   padding-bottom: 96px;
   margin: 0 auto;
-  max-width: 428px;
 }
 .container-footer {
   padding-right: 15px;
   padding-left: 15px;
+  margin-left: auto;
+  margin-right: auto;
 }
 .flex-table {
   display: flex;
@@ -622,11 +615,13 @@ input {
 .social-link:is(:hover, :focus) {
   background-color: var(--hover-footer-color);
 }
-
+.input{
+  width: 100%;
+}
 /* ===================/FOOTER============= */
 /* ===================FOOTER-FORM============= */
 .footer-form {
-  width: 100%;
+  
   margin-top: 72px;
 }
 .form .social {
@@ -634,7 +629,7 @@ input {
 }
 
 .form-input {
-  min-width: 319px;
+  min-width: 290px;
   height: 40px;
   border: 1px solid rgba(255, 255, 255, 0.3);
   border-radius: 4px;
@@ -643,7 +638,9 @@ input {
   padding: 8px 16px;
   color: var(--third-text-color);
 }
-
+.form-field{
+  width: 100%;
+}
 .form-field input::placeholder {
   color: rgba(255, 255, 255, 0.6);
   font-weight: 400;

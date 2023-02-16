@@ -53,9 +53,15 @@
     display: block;
     margin-left: auto;
   }
-  .contact-mail {
-    margin-right: 30px;
-  }
+  
+  .mail,
+  .number {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: calc(16 / 12);
+  color: var(--primery-text-color);
+  transition: color var(--time-cubic);
+}
 
   .open-menu-btn {
     display: none;
@@ -91,9 +97,7 @@
   /*- ------==============================---/HERO-------------- */
 
   /*- ----================================-----MAIN-------------- */
-  .section-features{
-    max-width: 768px;
-  }
+  
   .features-list {
     display: flex;
     flex-wrap: wrap;
@@ -106,7 +110,7 @@
   .section-team {
     padding-top: 96px;
     padding-bottom: 104px;
-    max-width: 768px;
+
   }
   .team-list {
     display: flex;
@@ -125,7 +129,6 @@
     column-gap: 24px;
   }
   .section-customers{
-    max-width: 768px;
     margin: 0 auto;
    
   }
@@ -137,7 +140,7 @@
   }
 /* ==============================FOOTER================ */
 .container-footer{
-  width: 768px;
+    width: 768px;
 }
 
   .flex-table {
@@ -183,7 +186,9 @@
   .section-buttton {
     padding-top: 64px;
     padding-bottom: 96px;
-    max-width: 768px;
+  }
+  .portfolio{
+    width: 768px;
   }
   .btn-portf {
     display: flex;
@@ -206,7 +211,4 @@
   }
   /* ========================////PORTFOLIO =============*/
 
-  .footer {
-    max-width: 768px;
-  }
 }

@@ -31,20 +31,17 @@
   }
   
   /*- ---========================================------//HERO-------------- */
-  .section-features{
-    max-width: 428px;
-  }
- 
-  /* ========================PORTFOLIO =============*/
-  .section-buttton{
-    max-width: 428px;
-  }
 
+  /* ========================PORTFOLIO =============*/
+  .portfolio{
+    width: 428px;
+  }
   /* ========================////PORTFOLIO =============*/
-  .footer{
-    max-width: 428px;
-  }
-  .form-input {
-    min-width: 396px;
-  }
+ .container-footer{
+  width: 428px;
+ }
+ .form-input{
+  min-width: 396px;
+ }
+
 }

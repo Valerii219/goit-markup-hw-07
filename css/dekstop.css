@@ -8,6 +8,16 @@
     align-items: center;
     margin-left: auto;
   }
+  .mail,
+  .number {
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--primery-text-color);
+  transition: color var(--time-cubic);
+}
+.contact-mail {
+  margin-right: 30px;
+}
   /*- ------===========================---//HEDER-------------- */
 
   /*- ------===========================---HERO-------------- */
@@ -24,9 +34,14 @@
   .section-features{
     padding-top: 96px;
     padding-bottom: 96px;
-    max-width: 1128px;
+    
   }
-
+  .cap {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: calc(24 / 20);
+   
+  }
   .icon-features {
     display: flex;
     gap: 24px;
@@ -58,7 +73,7 @@
     display: block;
     padding-top: 0;
     padding-bottom: 120px;
-    max-width: 1440px;
+    
   }
 
   .work-list {
@@ -71,7 +86,6 @@
   .section-team {
     padding-top: 120px;
     padding-bottom: 120px;
-    max-width: 1440px;
   }
   .team-list {
     display: flex;
@@ -84,9 +98,8 @@
     /* flex-basis: calc((100% - 72px) / 4); */
   }
   .section-customers {
-    padding-top: 56px;
+    padding-top: 120px;
     padding-bottom: 120px;
-    max-width: 1440px;
   }
   .list-customers {
     display: flex;
@@ -102,7 +115,6 @@
 
   /*- ------===========================---FOOTER-------------- */
   .footer{
-    max-width: 1440px;
   }
   .container-footer {
   flex-direction: unset;
@@ -151,7 +163,9 @@
 .section-buttton {
   padding-top: 96px;
   padding-bottom: 120px;
-  max-width: 1440px;
+}
+.portfolio{
+  width: 1128px;
 }
 .content {
   display: flex;
