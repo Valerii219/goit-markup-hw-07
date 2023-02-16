@@ -301,13 +301,13 @@ input {
   color: var(--title-text-color);
   margin-bottom: 8px;
 }
-.cap{
+.cap {
   font-weight: 700;
-font-size: 36px;
-line-height: calc(40 / 36);
-letter-spacing: 0.02em;
-text-transform: capitalize;
-color: #2E2F42;
+  font-size: 36px;
+  line-height: calc(40 / 36);
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2e2f42;
 }
 
 .caption-port {
@@ -343,7 +343,6 @@ color: #2E2F42;
 }
 .hero-container {
   padding: 0;
-  
 }
 .hero-title {
   width: 318px;
@@ -440,7 +439,6 @@ color: #2E2F42;
   padding-top: 96px;
   padding-bottom: 96px;
   margin: 0 auto;
-
 }
 .features-list {
   display: flex;
@@ -566,14 +564,12 @@ color: #2E2F42;
 .container-footer {
   padding-right: 15px;
   padding-left: 15px;
-  
 }
 .flex-table {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
- 
 }
 .footer-text {
   width: 268px;
@@ -646,7 +642,6 @@ color: #2E2F42;
   outline: transparent;
   padding: 8px 16px;
   color: var(--third-text-color);
-  
 }
 
 .form-field input::placeholder {
