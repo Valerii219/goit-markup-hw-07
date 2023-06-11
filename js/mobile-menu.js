@@ -15,3 +15,6 @@
     refs.body.classList.toggle("no-scroll");
   }
 })();
+var scrollup = new ScrollUp('.scrollup', {
+  // Параметри налаштування
+});
