@@ -66,11 +66,10 @@ input {
 
 /* menu */
 .top-header {
-  position: fixed;
-  top: 0;
+  
   
   width: 100%;
-  z-index: 100;
+ 
   background-color: var(--primery-background-color);
   padding-top: 24px;
   padding-bottom: 24px;
